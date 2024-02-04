@@ -16,7 +16,7 @@ function NavBar() {
       </li>
 
       <li className="cursor-pointer">
-        <Link to="/contact">Contacts</Link>
+        <Link to="/products">Products</Link>
       </li>
     </ul>
   );

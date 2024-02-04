@@ -18,6 +18,8 @@ import NavBar from "./components/NavBar.jsx";
 import Contacts from "./pages/Contacts.jsx";
 import Contact from "./components/Contact.jsx";
 import PageNotFound from "./pages/PageNotFound.jsx";
+import Products from "./pages/Products.jsx";
+import ProductDetailsPage from "./pages/ProductDetailsPage.jsx";
 
 // These is the Old Methods for using React Router v5
 
@@ -30,7 +32,9 @@ const router = createBrowserRouter(
       <Route index element=<Home /> />
       <Route path="about" element=<About /> />
       <Route path="services" element=<Services /> />
-      <Route path="contacts" element=<Contacts /> />
+      <Route path="products" element=<Products /> >
+        <Route path=":productId" element=<ProductDetailsPage /> />
+      </Route>
       <Route path="*" element={<PageNotFound />} />
     </Route>
   )
