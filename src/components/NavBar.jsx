@@ -14,6 +14,10 @@ function NavBar() {
       <li className="cursor-pointer">
         <Link to="/services">Services</Link>
       </li>
+
+      <li className="cursor-pointer">
+        <Link to="/contact">Contacts</Link>
+      </li>
     </ul>
   );
 }

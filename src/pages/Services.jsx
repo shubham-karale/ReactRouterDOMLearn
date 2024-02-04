@@ -1,5 +1,6 @@
 import React from "react";
 
+
 function Services() {
   return (
     <div
@@ -7,6 +8,8 @@ function Services() {
      items-center  "
     >
       <h1 className="text-3xl text-white">Services</h1>
+
+      
     </div>
   );
 }

@@ -3,6 +3,8 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 
+// Notes:
+
 import { Outlet, Route, Routes } from "react-router-dom";
 
 // Pages Importing
